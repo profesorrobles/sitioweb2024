@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#acordeonFAQ .item{
+	border-top: solid 1px #CCC;
+	cursor:pointer;
+	padding: 0 40px;
+	transition: all 1s; 
+	}
+
+#acordeonFAQ .item:hover{
+	background:#CCC;
+	}
+
+#acordeonFAQ .item .pregunta{
+	padding: 20px 0;
+}
+
+#acordeonFAQ .item .respuesta{
+	display:none;
+	padding-bottom: 20px;
+}
+
+.acordeonActivado, .acordeonActivado:hover{
+	background:#A3E0FF !important;
+}
+
+.acordeonActivado .pregunta{
+	font-weight:bolder;
+}

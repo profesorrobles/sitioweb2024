@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+#tabServicios{
+	height:400px;
+	width:850px;
+	}
+#tabs{
+	background:#ccc;
+	padding:10px;
+	text-align:center;
+	}	
+#tabs a{
+	color: #000;
+	font-size:14px;
+	padding: 9px 11px 11px 11px;
+	text-decoration:none;
+	transition: all .5s;
+	}	
+#tabs a:hover{
+	background:#eee;
+	}	
+.tabContent{
+	display:none;
+	text-align:center;
+	}	
+.tabContent img{
+	margin-top: 10px;
+	}	
+.tabActual{ /*para saber en jquery que tab está activo*/
+	background: #fff !important;
+	}	
